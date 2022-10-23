@@ -3,8 +3,10 @@ import styled from "styled-components";
 
 function IconOnlyButton({icon}) {
     const Container = styled.div`
+        opacity: 0.7;
+        transition: opacity 0.3s;
         &:hover {
-            opacity: 0.8;
+            opacity: 1;
         }
     `;
     return (
